@@ -92,7 +92,7 @@ void Del() {
 			for (int j = i; j < (mem - 1); j++)
 				carD[j] = carD[j + 1];
 			index++;
-			//mem--;
+			mem--;
 		}
 		else if (choice == 'n' || choice == 'N')
 			Del();
